@@ -5,4 +5,6 @@ require 'ramaze'   # Always required
 Ramaze.options.roots = [__DIR__]
 
 require __DIR__('autoloader')
+
+# Can we possibly autoload this? Seems ramaze needs all controllers pre-required...
 require __DIR__('classes/controller/main')
